@@ -77,11 +77,11 @@ task_tracker_api/
 ## ⚙️ Конфигурация
 **Переменные окружения (.env)**
 
-# Лимит запросов (формат: количество/период)
+Лимит запросов (формат: количество/период)
 RATE_LIMIT=10/minute
 
-# Разрешённые источники для CORS (через запятую)
+Разрешённые источники для CORS (через запятую)
 ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173
 
-# Режим окружения (development/production)
+Режим окружения (development/production)
 ENVIRONMENT=development
