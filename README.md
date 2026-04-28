@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)](https://fastapi.tiangolo.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 REST API для управления задачами с внедрёнными механизмами информационной безопасности.  
 Разработано в рамках лабораторных работ №6-7 по дисциплине «Скриптовые языки программирования»  
