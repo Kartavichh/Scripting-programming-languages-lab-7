@@ -58,25 +58,25 @@ task_tracker_api/
 2. **Создайте и активируйте виртуальное окружение**:
   ```bash
   python -m venv venv
-
+  
   # Windows:
   venv\Scripts\activate
   # Linux/macOS:
   source venv/bin/activate
-  
+  ```
 3. **Установите зависимости**:
-
+   ```bash
    pip install -r requirements.txt
-   
+   ```
 4. **Запустите сервер разработки**:
-
+   ```bash
    cp .env.example .env
    # Отредактируйте .env при необходимости
 
-
+   ```
 ## ⚙️ Конфигурация
 **Переменные окружения (.env)**
-
+```bash
 Лимит запросов (формат: количество/период)
 RATE_LIMIT=10/minute
 
@@ -85,3 +85,4 @@ ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173
 
 Режим окружения (development/production)
 ENVIRONMENT=development
+```
