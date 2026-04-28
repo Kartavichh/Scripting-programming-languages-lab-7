@@ -56,7 +56,7 @@ task_tracker_api/
    cd task-tracker-api-secure
    
 2. **Создайте и активируйте виртуальное окружение**:
-
+  ```bash
   python -m venv venv
 
   # Windows:
